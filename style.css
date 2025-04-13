@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+#choices button {
+  display: block;
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.7rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#result {
+  font-weight: bold;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.correct {
+  color: green;
+}
+
+.wrong {
+  color: red;
+}
